@@ -1,0 +1,21 @@
+[project]
+name = "abstention"
+version = "0.1.0"
+description = "Functions for abstention, calibration, and label shift domain adaptation"
+readme = "README.md"
+authors = [
+    { name = "nsbuitrago", email = "44626938+nsbuitrago@users.noreply.github.com" }
+]
+requires-python = ">=3.13"
+dependencies = [
+    "numpy>=2.5.2",
+    "scikit-learn>=1.9.0",
+    "scipy>=1.18.0",
+]
+
+[project.scripts]
+abstention = "abstention:main"
+
+[build-system]
+requires = ["uv_build>=0.12.3,<0.13.0"]
+build-backend = "uv_build"

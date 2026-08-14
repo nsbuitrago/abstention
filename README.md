@@ -1,5 +1,7 @@
 # Abstention, Calibration & Label Shift
 
+Originally forked from [kundajelab/abstention](https://github.com/kundajelab/abstention) and added optional class label support for EM fitting.
+
 Algorithms for abstention, calibration and domain adaptation to label shift. 
 
 Associated papers:
@@ -32,7 +34,7 @@ For calibration:
 - No-Bias Vector Scaling
 
 For domain adaptation to label shift:
-- Expectation Maximization (Saerens et al., 2002)
+- Expectation Maximization (Saerens et al., 2002) with optional class label support (Lee, Buitrago, Nouraein, et al., 2026)
 - Black-Box Shift Learning (BBSL) (Lipton et al., 2018)
 - Regularized Learning under Label Shifts (RLLS) (Azizzadenesheli et al., 2019)
 
@@ -43,14 +45,3 @@ For abstention:
 - Probability of the highest-predicted class (Hendrycks \& Gimpel, 2016)
 - The method of Fumera et al., 2000
 - See Colab notebook experiments in [https://github.com/blindauth/abstention_experiments](https://github.com/blindauth/abstention_experiments) for details on how to use the various abstention methods.
-
-## Contact
-
-If you have any questions, please contact:
-
-Avanti Shrikumar: avanti [dot] shrikumar [at] gmail.com
-
-Amr Alexandari: amr [dot] alexandari [at] gmail.com
-
-Anshul Kundaje: akundaje [at] stanford [dot] edu
-

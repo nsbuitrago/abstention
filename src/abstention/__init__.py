@@ -4,3 +4,6 @@ from . import figure_making_utils
 from . import calibration
 from . import abstention
 from . import label_shift
+
+def main() -> None:
+    print("Hello from abstention!")
